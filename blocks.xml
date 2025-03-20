@@ -1,0 +1,85 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <block type="frost_webserver" id="Lcz-W?ur.i3+uYLyCc}1" x="-57" y="-36">
+    <value name="URL">
+      <shadow type="text" id="B_:1c3F;=lq#?f*d2/`~">
+        <field name="TEXT">hello you found my secret bunker</field>
+      </shadow>
+    </value>
+  </block>
+  <block type="frost_slash_register" id=".s[MPlg~7/zobezf9CQ@" x="497" y="88">
+    <statement name="OPTIONS">
+      <block type="frost_slash_command" id="@`BcfT}L?7ZM=d/6~H;~">
+        <value name="NAME">
+          <shadow type="text" id="N8YZXPq+p1eaDLc.jEOW">
+            <field name="TEXT">test</field>
+          </shadow>
+        </value>
+        <value name="DESC">
+          <shadow type="text" id="=f9w0-@8_.vdhg^6NNEg">
+            <field name="TEXT">hi</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="s4d_on_connected" id="%H?WNTQ6r$Xj[p`Pu!3M" x="-198" y="281">
+    <statement name="STATEMENTS">
+      <block type="s4d_set_bot_game" id="$-Lj{6d`s]]J[uB]/_6n">
+        <field name="OIFD">online</field>
+        <field name="TYPE">WATCHING</field>
+        <value name="GAME">
+          <block type="jg_text_remake_paragraph_quotes" id="Z8TCrH)0S)$}h}j-hT!.">
+            <field name="TEXT">you</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="on_slash" id="WX%VlmOY^SpY*(,rHyQG" x="459" y="414">
+    <statement name="STATEMENTS">
+      <block type="controls_if" id=")S:#.u`{,!r}Fyv$vjW.">
+        <value name="IF0">
+          <block type="logic_compare" id="@a!?scz~|wasn1t~w!r{">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="interaction_name" id="2aniP`SR-D_`dH6OI`77"></block>
+            </value>
+            <value name="B">
+              <block type="jg_text_remake_paragraph_quotes" id=":Cu[l=_w!32c/gua:jEI">
+                <field name="TEXT">test</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="slash_reply" id="B@Q|HVp49NQlp7nt#jzZ">
+            <value name="CONTENT">
+              <block type="jg_text_remake_paragraph_quotes" id="c,$h~OO[#Lpt*y/}`:`c">
+                <field name="TEXT">hi there fellow guy i am a bot nice 2 meet u</field>
+              </block>
+            </value>
+            <value name="BOOLEAN">
+              <block type="logic_boolean" id="*%!/Qh*dAJfy3UlArc6K">
+                <field name="BOOL">FALSE</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="s4d_login" id="%IoViu3px7HqH12n:Rgg" x="950" y="406">
+    <value name="TOKEN">
+      <shadow type="text" id="Nj=^o$LOWR=$2D^Pc+5H">
+        <field name="TEXT">MTE2MjQ3MzgxNDg2OTkzNDEzMQ.GSs37p.EXaKtV7Gu-rxgxIZe2wVxX28Sh9ZsDG0G2l0No</field>
+      </shadow>
+      <block type="frost_env" id="8#$Cn$W+7~79MEW2E/q7">
+        <value name="VALUE">
+          <shadow type="text" id="N!)bU#;ddf3|x?e505sh">
+            <field name="TEXT">token</field>
+          </shadow>
+        </value>
+      </block>
+    </value>
+  </block>
+</xml>
