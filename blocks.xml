@@ -71,7 +71,7 @@
   <block type="s4d_login" id="%IoViu3px7HqH12n:Rgg" x="950" y="406">
     <value name="TOKEN">
       <shadow type="text" id="Nj=^o$LOWR=$2D^Pc+5H">
-        <field name="TEXT">MTE2MjQ3MzgxNDg2OTkzNDEzMQ.GSs37p.EXaKtV7Gu-rxgxIZe2wVxX28Sh9ZsDG0G2l0No</field>
+        <field name="TEXT"></field>
       </shadow>
       <block type="frost_env" id="8#$Cn$W+7~79MEW2E/q7">
         <value name="VALUE">
